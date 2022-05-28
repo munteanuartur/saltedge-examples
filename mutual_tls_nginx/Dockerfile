@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:stable
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY certs/server.crt /etc/nginx/certs/server.crt
